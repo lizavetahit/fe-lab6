@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2d3032;
+    color: #ffffff;
+}
+
+.top {
+    background-color: #9b9b9b;
+    text-align: center;
+    padding: 12px 10px 6px;
+}
+
+#download-btn {
+    padding: 8px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #3a3f44;
+    color: #ffffff;
+    border: 1px solid #222222;
+    border-radius: 4px;
+}
+
+#download-btn:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+#status {
+    margin: 8px 0 4px;
+    font-size: 22px;
+    color: #222222;
+}
+
+#status.error {
+    color: #b00020;
+}
+
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    flex: 1 1 20%;
+    min-width: 180px;
+}
+
+.user img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 14px 12px;
+    font-size: 14px;
+}
+
+.info p {
+    margin: 0 0 12px;
+    overflow-wrap: anywhere;
+}
